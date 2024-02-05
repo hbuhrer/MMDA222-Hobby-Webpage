@@ -1,4 +1,4 @@
-# MMDA222 - Travelogue Assignment
+# MMDA222 - Hobby Webpage Assignment
 
 This repository showcases the HTML and CSS code for a dedicated webpage about my personal journey into the realms of PC Gaming and Streaming. Created as an assignment for MMDA222 in 2023, this travelogue provides insights, experiences, and recommendations.
 
