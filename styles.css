@@ -1,35 +1,35 @@
 body {
-    padding:0;
-    margin:0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-   
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: #747474;
-    border: solid 1px #FFE400;
-    }
-      
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #747474;
+  border: solid 1px #ffe400;
+}
+
 nav li {
-    display: inline;
-    background: #747474;
-    }
-      
+  display: inline;
+  background: #747474;
+}
+
 nav a {
-    display: inline-block;
-    padding: 1rem;
-    text-decoration: none;
-    color: #272727;
-    background: #747474;
-    }
-      
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+  color: #272727;
+  background: #747474;
+}
+
 nav a:hover {
-    background-color: #272727;
-    color: #FFE400;
-    }
+  background-color: #272727;
+  color: #ffe400;
+}
 
 .dropdown-menu {
   display: none;
@@ -39,195 +39,193 @@ nav a:hover {
   justify-content: center;
   left: 50%;
   transform: translateX(-50%);
-    }
+}
 
 .dropdown-menu li {
-    display: block;
-    width: 100%;
-    }
+  display: block;
+  width: 100%;
+}
 
 .dropdown-menu a {
-    display: block;
-    padding: 1rem;
-    color: #272727;
-    text-decoration: none;
-    }
+  display: block;
+  padding: 1rem;
+  color: #272727;
+  text-decoration: none;
+}
 
 .dropdown-menu a:hover {
-    background-color: #272727;
-    color: #FFE400;
-    }
+  background-color: #272727;
+  color: #ffe400;
+}
 
 .dropdown:hover .dropdown-menu {
   display: flex;
   flex-direction: column;
-    }
-            
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: #272727;
-    color: #747474;
-    align-items: center;
-    }
-            
-.text {
-    flex: 1;
-    padding: 1rem;
-    padding-left: 2rem;
-    }
-
-.text-right {
-    flex: 1;
-    padding: 1rem;
-    padding-right: 2rem
-    }
-
-img {
-    max-width: 100%;
-    border-radius: 10pt;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    }
-            
-.image {
-    max-width: 30%;
-    flex: 1;
-    padding: 1.5rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    }
-
-.reverse {
-    background: #747474;
-    color: #272727;
-    flex-direction: row-reverse;
-    }
-
-.footerform {
-    text-align: center;
-    padding: 1rem;
-    background-color: #747474;
-    }
-
-.header {
-    color: #FFE400;
-    text-align: center;
-    padding: 1rem;
-    background-color: #272727; 
-    background-image: url(Header.png);
-    background-size: cover;
-    background-position: 100% 30%;
-    padding-top: 10rem;
-    align-items: center;
-    }
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    padding-top: 0rem;
-    }
-
-footer {
-    text-align: center;
-    padding: 0.5rem;
-    background-color: #272727; 
-    color: #FFE400;
-    }
-
-.h2form {
-    color: #FFE400;
-    }
-
-h2 {
-    color: #FFE400;
-    }
-
-input {
-    color: #FFE400;
-    background: #272727;
-    border: none;
-    border-radius: 2pt;
-    margin: 0.1rem;
-    width: 60%;
-    height: 2rem;
-    }
-
-.button {
-    color: #FFE400;
-    background: #272727;
-    border: none;
-    border-radius: 2pt;
-    margin: 0.1rem;
-    width: 40%;
-    }
-
-.button:hover {
-    background: #FFE400;
-    color: #272727;
-    }
-
-input:focus{
-    outline: solid 1px #FFE400;
-    border: none;
-    border-radius: 2pt;
-    }
-
-textarea {
-    background: #272727;
-    color: #FFE400;
-    border: none;
-    border-radius: 2pt;
-    margin: 0.1rem;
-    width: 60%;
-    height: 4rem;
-    }
-
-textarea:focus {
-    outline: solid 1px #FFE400;
-    border: none;
-    border-radius: 2pt;
-    }
-
-@media screen and (max-width: 1100px) {
-   
-.container {
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 0rem;
-    }
-
-.reverse {
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 0rem;
-    }
-
-.image {
-    padding-bottom: 3rem;
-    max-width: 90%;
-    }
-
-.text {
-padding: 2rem;
-padding-bottom: 0rem;
-    }
-
-.text-right {
-padding: 2rem;
-padding-bottom: 0rem;
-    }
-
-.header {
-    font-size: 15px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: #272727;
+  color: #747474;
+  align-items: center;
+}
+
+.text {
+  flex: 1;
+  padding: 1rem;
+  padding-left: 2rem;
+}
+
+.text-right {
+  flex: 1;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10pt;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  max-width: 30%;
+  flex: 1;
+  padding: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reverse {
+  background: #747474;
+  color: #272727;
+  flex-direction: row-reverse;
+}
+
+.footerform {
+  text-align: center;
+  padding: 1rem;
+  background-color: #747474;
+}
+
+.header {
+  color: #ffe400;
+  text-align: center;
+  padding: 1rem;
+  background-color: #272727;
+  background-image: url(Header.png);
+  background-size: cover;
+  background-position: 100% 30%;
+  padding-top: 10rem;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  padding-top: 0rem;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #272727;
+  color: #ffe400;
+}
+
+.h2form {
+  color: #ffe400;
+}
+
+h2 {
+  color: #ffe400;
+}
+
+input {
+  color: #ffe400;
+  background: #272727;
+  border: none;
+  border-radius: 2pt;
+  margin: 0.1rem;
+  width: 60%;
+  height: 2rem;
+}
+
+.button {
+  color: #ffe400;
+  background: #272727;
+  border: none;
+  border-radius: 2pt;
+  margin: 0.1rem;
+  width: 40%;
+}
+
+.button:hover {
+  background: #ffe400;
+  color: #272727;
+}
+
+input:focus {
+  outline: solid 1px #ffe400;
+  border: none;
+  border-radius: 2pt;
+}
+
+textarea {
+  background: #272727;
+  color: #ffe400;
+  border: none;
+  border-radius: 2pt;
+  margin: 0.1rem;
+  width: 60%;
+  height: 4rem;
+}
+
+textarea:focus {
+  outline: solid 1px #ffe400;
+  border: none;
+  border-radius: 2pt;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0rem;
+  }
+
+  .reverse {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0rem;
+  }
+
+  .image {
+    padding-bottom: 3rem;
+    max-width: 90%;
+  }
+
+  .text {
+    padding: 2rem;
+    padding-bottom: 0rem;
+  }
+
+  .text-right {
+    padding: 2rem;
+    padding-bottom: 0rem;
+  }
+
+  .header {
+    font-size: 15px;
+  }
 }
