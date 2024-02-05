@@ -50,4 +50,4 @@ The HTML document represents my reflections on the world of PC gaming and stream
 ## Grade Achieved 
 - A+ (60/60)
 
-2023 Hendrich Buhrer
+2023 - Hendrich Buhrer
